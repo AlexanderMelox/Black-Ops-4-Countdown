@@ -112,6 +112,9 @@ video {
 
   body {
     background-color: #000;
+    background-image: url(img/bo.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   .countdown__heading {
@@ -144,16 +147,11 @@ video {
   }
   
   .countdown__timer div {
-    display: block;
     margin: 0 1rem;
     font-size: 3rem;
-    font-weight: 900;
   }
   
   .countdown__timer div span {
-    display: block;
     font-size: 1rem;
-    font-weight: 200;
-    color: var(--color-primary);
   }
 }
