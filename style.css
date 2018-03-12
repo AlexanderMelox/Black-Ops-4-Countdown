@@ -1,3 +1,7 @@
+:root {
+  --color-primary: #ee7600;
+}
+
 * {
   box-sizing: inherit;
   margin: 0;
@@ -75,5 +79,28 @@ video {
   display: block;
   width: 50%;
   margin: 2.5rem auto;
-  border-top: 1px solid #fff;
+  border-top: 2px solid var(--color-primary);
+}
+
+/* Styles for timer */
+
+.countdown__timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.countdown__timer div {
+  display: block;
+  margin: 0 3rem;
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.countdown__timer div span {
+  display: block;
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--color-primary);
 }

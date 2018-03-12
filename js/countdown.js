@@ -32,7 +32,7 @@ const intvl = setInterval(() => {
     // Stop countdown
     clearInterval(intvl);
     // Style and output text
-    countdown.style.color = '#17a2b8';
+    countdown.style.color = '#ee7600';
     countdown.innerHTML = 'Launched!';
   }
 }, 1000);
