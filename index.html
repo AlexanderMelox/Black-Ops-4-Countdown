@@ -13,7 +13,7 @@
 <body>
   
   <div class="container">
-    <video poster="img/poster.jpg" autoplay muted loop>
+    <video poster="img/poster.jpg" autoplay loop>
       <source src="videos/trailer.mp4" type="video/mp4">
       <source src="videos/trailer.webm" type="video/webm">
     </video>
@@ -31,5 +31,8 @@
 
   <!-- SCRIPTS -->
   <script src="js/countdown.js"></script>
+  <script>
+    document.querySelector('video').volume = 0.05;
+  </script>
 </body>
 </html>
