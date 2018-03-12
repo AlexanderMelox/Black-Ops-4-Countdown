@@ -1,7 +1,9 @@
 const countdown = document.querySelector('.countdown__timer');
 
 // Set Launch Date (ms)
-const launchDate = new Date('Oct 12, 2018 24:00:00').getTime();
+// const launchDate = new Date('Oct 12, 2018 24:00:00').getTime();
+const launchDate = new Date('2018-10-12T24:00:00'.replace(/\s/, 'T')).getTime();
+
 
 // Update every second
 const intvl = setInterval(() => {
